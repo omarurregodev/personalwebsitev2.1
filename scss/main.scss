@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: 'Armata', sans-serif;
 }
+
+// IMPORT SECTIONS//
+
+@import './Secciones/index';
+@import './Secciones/about';
+@import './Secciones/skills';
+@import './Secciones/portfolio';
+@import './Secciones/contact';

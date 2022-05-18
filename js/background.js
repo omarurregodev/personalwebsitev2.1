@@ -2,6 +2,7 @@
 
 let widthSize = window.innerWidth;
 let heightSize = window.innerHeight;
+let canvas;
 
 $(window).resize(function() {
   //resize just happened, pixels changed
@@ -20,7 +21,7 @@ class Particle {
   constructor(){
     this.x = random(0,width);
     this.y = random(0,height);
-    this.r = random(1,5);
+    this.r = random(1,6);
     this.xSpeed = random(-2,2);
     this.ySpeed = random(-1,1.5);
   }
@@ -28,7 +29,7 @@ class Particle {
   // creation of a particle.
   createParticle() {
     noStroke();
-    fill('rgba(255,255,255,0.8)');
+    fill('rgba(60, 110, 113,1)');
     circle(this.x,this.y,this.r);
   }
 
@@ -49,7 +50,7 @@ class Particle {
       particles.forEach(element =>{
         let dis = dist(this.x,this.y,element.x,element.y);
         if(dis<120) {
-          stroke('rgba(217, 217, 217,0.06)');
+          stroke('rgba(60, 110, 113,0.25)');
           line(this.x,this.y,element.x,element.y);
         }
       });  
@@ -62,7 +63,9 @@ let particles = [];
 
 function setup() {
   // put setup code here
-  createCanvas(widthSize, heightSize);
+  canvas = createCanvas(widthSize, heightSize);
+  canvas.position(0,0);
+  canvas.style('z-index','-1');
   if(particles.length <= 80) {
     for(let i = 0;i<80;i++){
       particles.push(new Particle());
