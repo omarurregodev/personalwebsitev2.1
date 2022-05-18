@@ -1,0 +1,57 @@
+.about {
+    div {
+        div {
+            h6 {
+                color: #d9d9d9;
+            }
+            h2 {
+                color: #d9d9d9;   
+                margin-bottom: 3rem; 
+            }
+        }
+
+        .containers_about {
+            div {
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+
+            .group_about_cards {
+                width: auto;
+                max-width: max-content;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1.2rem;
+                
+                .about_card {
+                    border-radius: 0.5rem;
+                    border: 1px solid #d9d9d9;
+                    padding: 3rem 0.6rem;
+                    color: #fff;
+                    
+                    h6 {
+                        font-size: 1.1rem;
+                    }
+
+                    .about_icon {
+                        font-size: 2.5rem;
+                        //color: #D9d9d9;
+                        margin-bottom: 2rem;
+                    }
+                    .about_p {
+                        color: #D9d9d9;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+
+            .about_me {
+                padding: 2rem 5rem;
+                color: #d9d9d9;
+            }
+        }
+    }
+}
+    

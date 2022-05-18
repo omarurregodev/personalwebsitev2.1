@@ -1,14 +1,21 @@
 // Detection Onresize 
+let body_height;
+let body_width;
 
-let widthSize = window.innerWidth;
-let heightSize = window.innerHeight;
+$(document).ready(function () {
+  body_height = $("#body_height").height();
+  body_width = $("#body_height").width();
+  console.log(body_height);
+  console.log(body_width);
+});
+
 let canvas;
+
 
 $(window).resize(function() {
   //resize just happened, pixels changed
-  widthSize = window.innerWidth;
-  heightSize = window.innerHeight;
-
+  body_height = $("#body_height").height();
+  body_width = $("#body_height").width();
   setup();
 });
 
@@ -63,7 +70,7 @@ let particles = [];
 
 function setup() {
   // put setup code here
-  canvas = createCanvas(widthSize, heightSize);
+  canvas = createCanvas(body_width, body_height);
   canvas.position(0,0);
   canvas.style('z-index','-1');
   if(particles.length <= 80) {

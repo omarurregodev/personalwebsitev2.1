@@ -27,15 +27,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Armata&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>Home | OmarTorres</title>
 </head>
-<body>
-    <header>
+<body id="body_height">
+    <header id="header_home">
         <div class="container header_container">
-            <div class="row col-sm-12 col-md-12 col-lg-12 text-center introduce_sec">
+            <div class="row col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center introduce_sec">
                 <h5 class="">Hello, I am</h5>
                 <h2 class="">Omar Torres Urrego</h2>
                 <h6 class="titles">Civil engineer & Fullstack Web Developer (MERN)</h6>
             </div>
-            <div class="row col-sm-12 col-md-12 col-lg-12 btn_container justify-content-center">
+            <div class="row col-sm-12 col-md-12 col-lg-12 col-xl-12 btn_container justify-content-center">
                 <button class="btn btn-secondary">Download CV</button>
                 <button class="btn btn-primary">Let's chat!</button>
             </div>
@@ -47,8 +47,51 @@
             <a href="" class="scroll_down" id="scroll-down">Scroll down</a>
         </div>
     </header>
+    <nav class="">
+        <a href="#header_home" class="active"><i class="fa-solid fa-house"></i></a>
+        <a href="#about"><i class="fa-solid fa-user-tie"></i></a>
+        <a href="#skills"><i class="fa-brands fa-codepen"></i></a>
+        <a href="#portfolio"><i class="fa-regular fa-folder-closed"></i></a>
+        <a href="#contact"><i class="fa-regular fa-address-card"></i></a>
+    </nav>
     <main>
-        
+        <section class="about">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <h6 class="">Meet me</h6>
+                    <h2 class="">About me</h2>
+                </div>
+                <div class="row containers_about">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+                        <img src="./img/avatar.png" alt="">
+                    </div>
+                    <div class="row col-sm-12 col-md-8 col-lg-8 col-xl-8 text-center justify-content-center">
+                        <div class="group_about_cards">
+                            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 about_card text-center">
+                                <i class="fa-brands fa-codepen about_icon"></i>
+                                <h6 class="">Experience</h6>
+                                <p class="about_p">+1 year</p>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 about_card text-center">
+                                <i class="fa-solid fa-briefcase about_icon"></i>
+                                <h6 class="">Complete Projects</h6>
+                                <p class="about_p">2 Projects Complete</p>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 about_card text-center">
+                                <i class="fa-solid fa-laptop-code about_icon"></i>
+                                <h6 class="">Development Projects</h6>
+                                <p class="about_p">1 running project</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <h6 class="about_me">For a long time, I have been curious about the world of programming. Being an engineer has made it easier for me in certain aspects to learn the logic of languages and their interpretation. I am curious by nature, proactive and always working for the best solution.</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
     </main>
     <footer>
 
@@ -56,7 +99,7 @@
     <!-- JQuery JS -->
     <script src="./js/jquery/jquery.js"></script>
     <!-- Boostrap JS -->
-    <script src="./js/bootstrap.js"></script> 
+    <script src="./js/bootstrap/bootstrap.js"></script> 
 </body>
 <script src="./js/main.js"></script>
 </html>

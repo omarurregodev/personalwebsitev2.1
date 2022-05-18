@@ -5,10 +5,13 @@
     font-family: 'Armata', sans-serif;
 }
 
+section {
+    margin-top: 8rem;
+}
 // IMPORT SECTIONS//
 
 @import './Secciones/index';
-@import './Secciones/about';
+@import './Secciones/about.scss';
 @import './Secciones/skills';
 @import './Secciones/portfolio';
 @import './Secciones/contact';
