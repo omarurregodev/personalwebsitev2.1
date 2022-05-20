@@ -5,12 +5,13 @@
                 color: #d9d9d9;
             }
             h2 {
-                color: #d9d9d9;   
+                color: #fff;   
                 margin-bottom: 3rem; 
             }
         }
 
         .containers_about {
+            gap: 10rem;
             div {
                 img {
                     display: block;
@@ -19,25 +20,23 @@
             }
 
             .group_about_cards {
-                width: auto;
-                max-width: max-content;
-                display: flex;
-                flex-wrap: wrap;
-                gap: 1.2rem;
+                padding: 0;
                 
-                .about_card {
-                    border-radius: 0.5rem;
+                .card {
+                    backdrop-filter: blur(5px);
+                    background-color: rgba($color: #fff, $alpha: 0.05);
                     border: 1px solid #d9d9d9;
-                    padding: 3rem 0.6rem;
-                    color: #fff;
-                    
+                    padding: 5rem 0rem;
+                    border-radius: 2rem;
+
                     h6 {
                         font-size: 1.1rem;
+                        color: #fff;
                     }
 
                     .about_icon {
-                        font-size: 2.5rem;
-                        //color: #D9d9d9;
+                        font-size: 1.5rem;
+                        color: #D9d9d9;
                         margin-bottom: 2rem;
                     }
                     .about_p {
@@ -45,10 +44,17 @@
                         font-size: 0.8rem;
                     }
                 }
-            }
 
+                .card:hover {
+                    backdrop-filter: blur(5px);
+                    background-color: rgba($color: #3C6E71, $alpha: 0.3);
+                    border: 1.5px solid #3C6E71;
+                    transition-duration: 0.5s;
+                    cursor: pointer;
+                }
+            }
             .about_me {
-                padding: 2rem 5rem;
+                padding-top: 3rem;
                 color: #d9d9d9;
             }
         }

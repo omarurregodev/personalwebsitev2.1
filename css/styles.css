@@ -5,7 +5,7 @@
   font-family: 'Armata', sans-serif; }
 
 section {
-  margin-top: 8rem; }
+  margin-top: 6rem; }
 
 header {
   height: 100vh;
@@ -88,7 +88,7 @@ nav {
     background: #3C6E71;
     color: #D9D9D9;
     transition-duration: 1s; }
-  nav a .active {
+  nav .active {
     background: #3C6E71;
     color: #fff; }
 
@@ -96,33 +96,122 @@ nav {
   color: #d9d9d9; }
 
 .about div div h2 {
-  color: #d9d9d9;
+  color: #fff;
   margin-bottom: 3rem; }
 
-.about div .containers_about div img {
-  display: block;
-  width: 100%; }
+.about div .containers_about {
+  gap: 10rem; }
+  .about div .containers_about div img {
+    display: block;
+    width: 100%; }
+  .about div .containers_about .group_about_cards {
+    padding: 0; }
+    .about div .containers_about .group_about_cards .card {
+      backdrop-filter: blur(5px);
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid #d9d9d9;
+      padding: 5rem 0rem;
+      border-radius: 2rem; }
+      .about div .containers_about .group_about_cards .card h6 {
+        font-size: 1.1rem;
+        color: #fff; }
+      .about div .containers_about .group_about_cards .card .about_icon {
+        font-size: 1.5rem;
+        color: #D9d9d9;
+        margin-bottom: 2rem; }
+      .about div .containers_about .group_about_cards .card .about_p {
+        color: #D9d9d9;
+        font-size: 0.8rem; }
+    .about div .containers_about .group_about_cards .card:hover {
+      backdrop-filter: blur(5px);
+      background-color: rgba(60, 110, 113, 0.3);
+      border: 1.5px solid #3C6E71;
+      transition-duration: 0.5s;
+      cursor: pointer; }
+  .about div .containers_about .about_me {
+    padding-top: 3rem;
+    color: #d9d9d9; }
 
-.about div .containers_about .group_about_cards {
-  width: auto;
-  max-width: max-content;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.2rem; }
-  .about div .containers_about .group_about_cards .about_card {
-    border-radius: 0.5rem;
-    border: 1px solid #d9d9d9;
-    padding: 3rem 0.6rem;
-    color: #fff; }
-    .about div .containers_about .group_about_cards .about_card h6 {
-      font-size: 1.1rem; }
-    .about div .containers_about .group_about_cards .about_card .about_icon {
-      font-size: 2.5rem;
-      margin-bottom: 2rem; }
-    .about div .containers_about .group_about_cards .about_card .about_p {
-      color: #D9d9d9;
-      font-size: 0.8rem; }
-
-.about div .containers_about .about_me {
-  padding: 2rem 5rem;
+.skills div div h6 {
   color: #d9d9d9; }
+
+.skills div div h2 {
+  color: #fff;
+  margin-bottom: 3rem; }
+
+.skills div .cards_skills_container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.skills div div div .card {
+  backdrop-filter: blur(5px);
+  background-color: rgba(217, 217, 217, 0.15);
+  border: 1.5px solid #d9d9d9;
+  border-radius: 3rem;
+  padding: 3rem;
+  max-width: max-content; }
+  .skills div div div .card .skills_icon {
+    font-size: 1.5rem;
+    color: #d9d9d9;
+    margin-bottom: 2rem; }
+  .skills div div div .card .card-title {
+    color: #fff;
+    font-size: 1.1rem; }
+  .skills div div div .card .skills_p {
+    color: #D9d9d9;
+    font-size: 0.8rem; }
+  .skills div div div .card .skills_desc {
+    color: #fff;
+    font-size: 1.1rem; }
+  .skills div div div .card ul .list-group-item {
+    background-color: rgba(217, 217, 217, 0);
+    border: none; }
+
+.skills div div div .card:hover {
+  backdrop-filter: blur(5px);
+  background-color: rgba(60, 110, 113, 0.3);
+  border: 1.5px solid #3C6E71;
+  transition-duration: 0.5s;
+  cursor: pointer; }
+
+.portfolio div div h6 {
+  color: #d9d9d9; }
+
+.portfolio div div h2 {
+  color: #fff;
+  margin-bottom: 3rem; }
+
+.portfolio div .cards_skills_container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.portfolio div div div .card {
+  backdrop-filter: blur(5px);
+  background-color: rgba(217, 217, 217, 0.15);
+  border: 1.5px solid #d9d9d9;
+  border-radius: 3rem; }
+  .portfolio div div div .card .card-body {
+    padding: 5rem 4rem; }
+  .portfolio div div div .card .card-title {
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: start; }
+  .portfolio div div div .card .skills_p {
+    color: #D9d9d9;
+    font-size: 0.8rem;
+    text-align: start; }
+  .portfolio div div div .card .btn_portfolio {
+    border: 1px solid #d9d9d9;
+    background-color: rgba(217, 217, 217, 0);
+    color: #d9d9d9;
+    padding: 0.8rem 2rem; }
+    .portfolio div div div .card .btn_portfolio a {
+      text-decoration: none;
+      color: #d9d9d9; }
+  .portfolio div div div .card .btn_portfolio:hover {
+    background-color: #3c6e71;
+    border: 1px solid #3C6E71;
+    cursor: pointer;
+    transition-duration: 0.5s; }
