@@ -215,3 +215,31 @@ nav {
     border: 1px solid #3C6E71;
     cursor: pointer;
     transition-duration: 0.5s; }
+
+.portfolio div div div .card:hover {
+  backdrop-filter: blur(5px);
+  background-color: rgba(60, 110, 113, 0.3);
+  border: 1.5px solid #3C6E71;
+  transition-duration: 0.5s;
+  cursor: pointer; }
+
+.contact div div h6 {
+  color: #d9d9d9; }
+
+.contact div div h2 {
+  color: #fff;
+  margin-bottom: 3rem; }
+
+.contact .cards_info_container div div .card {
+  backdrop-filter: blur(5px);
+  background-color: rgba(217, 217, 217, 0.15);
+  border: 1.5px solid #d9d9d9;
+  border-radius: 1rem; }
+  .contact .cards_info_container div div .card .card-title {
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: start; }
+  .contact .cards_info_container div div .card .contact_p {
+    color: #D9d9d9;
+    font-size: 0.8rem;
+    text-align: start; }

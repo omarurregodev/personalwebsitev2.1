@@ -1,0 +1,38 @@
+.contact {
+    div {
+        div {
+            h6 {
+                color: #d9d9d9;
+            }
+
+            h2 {
+                color: #fff;
+                margin-bottom: 3rem; 
+            }
+        }   
+    }
+    .cards_info_container {
+        div {
+            div {
+                .card {
+                    backdrop-filter: blur(5px);
+                    background-color: rgba($color: #d9d9d9, $alpha: 0.15);
+                    border: 1.5px solid #d9d9d9;
+                    border-radius: 1rem;
+
+                    .card-title {
+                        color: #fff;
+                        font-size: 1.1rem;
+                        text-align: start;
+                    }
+
+                    .contact_p {
+                        color: #D9d9d9;
+                        font-size: 0.8rem;
+                        text-align: start;
+                    }
+                }
+            }
+        }
+    }
+}
