@@ -41,7 +41,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    left: 0;
+    left: 1rem;
     position: absolute; }
     header .header_social_icons .social_icons {
       color: #3C6E71;
@@ -191,9 +191,11 @@ nav {
   backdrop-filter: blur(5px);
   background-color: rgba(217, 217, 217, 0.15);
   border: 1.5px solid #d9d9d9;
-  border-radius: 3rem; }
+  border-radius: 1rem; }
   .portfolio div div div .card .card-body {
-    padding: 5rem 4rem; }
+    padding: 3rem 2rem; }
+  .portfolio div div div .card .img-fluid {
+    border-radius: 0.5rem; }
   .portfolio div div div .card .card-title {
     color: #fff;
     font-size: 1.1rem;
@@ -223,23 +225,88 @@ nav {
   transition-duration: 0.5s;
   cursor: pointer; }
 
-.contact div div h6 {
-  color: #d9d9d9; }
-
-.contact div div h2 {
-  color: #fff;
-  margin-bottom: 3rem; }
-
-.contact .cards_info_container div div .card {
-  backdrop-filter: blur(5px);
-  background-color: rgba(217, 217, 217, 0.15);
-  border: 1.5px solid #d9d9d9;
-  border-radius: 1rem; }
-  .contact .cards_info_container div div .card .card-title {
+.contact {
+  padding-bottom: 5rem; }
+  .contact div div h6 {
+    color: #d9d9d9; }
+  .contact div div h2 {
     color: #fff;
-    font-size: 1.1rem;
-    text-align: start; }
-  .contact .cards_info_container div div .card .contact_p {
-    color: #D9d9d9;
-    font-size: 0.8rem;
-    text-align: start; }
+    margin-bottom: 3rem; }
+  .contact .cards_info_container div article .card {
+    backdrop-filter: blur(5px);
+    background-color: rgba(217, 217, 217, 0.15);
+    border: 1.5px solid #d9d9d9;
+    border-radius: 1rem;
+    padding: 3rem 4rem; }
+    .contact .cards_info_container div article .card .contact_icon {
+      font-size: 1.5rem;
+      color: #d9d9d9;
+      margin-bottom: 1rem; }
+    .contact .cards_info_container div article .card .card-title {
+      color: #fff;
+      font-size: 1.1rem; }
+    .contact .cards_info_container div article .card .contact_p {
+      color: #D9d9d9;
+      font-size: 0.8rem; }
+      .contact .cards_info_container div article .card .contact_p .link_contact {
+        text-decoration: none;
+        color: #3C6E71; }
+      .contact .cards_info_container div article .card .contact_p .link_contact:hover {
+        cursor: pointer;
+        color: #d9d9d9;
+        transition-duration: 0.5s; }
+  .contact .cards_info_container div article .card:hover {
+    backdrop-filter: blur(5px);
+    background-color: rgba(60, 110, 113, 0.2);
+    border: 1.5px solid #3C6E71;
+    transition-duration: 0.5s;
+    cursor: pointer; }
+
+.footer {
+  padding-top: 3rem;
+  height: 45vh;
+  backdrop-filter: blur(5px);
+  background-color: rgba(60, 110, 113, 0.7); }
+  .footer div {
+    height: max-content; }
+    .footer div div img {
+      max-width: 7rem; }
+    .footer div .footer_navbar {
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+      margin: 0 auto 3rem;
+      flex-wrap: wrap;
+      gap: 2rem; }
+      .footer div .footer_navbar .list_footer_item {
+        list-style: none;
+        color: #d9d9d9; }
+      .footer div .footer_navbar .list_footer_item:hover {
+        color: #353535;
+        transition-duration: 0.5s;
+        cursor: pointer; }
+    .footer div .footer_icons {
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+      margin: 0 auto 3rem;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding-left: 0; }
+      .footer div .footer_icons .list_footer_icons {
+        list-style: none;
+        font-size: 1.5rem; }
+        .footer div .footer_icons .list_footer_icons a {
+          text-decoration: none;
+          color: #d9d9d9; }
+        .footer div .footer_icons .list_footer_icons a:hover {
+          color: #353535;
+          transition-duration: 0.5s;
+          cursor: pointer; }
+    .footer div .copy_p {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      color: rgba(217, 217, 217, 0.7); }

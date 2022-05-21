@@ -22,10 +22,14 @@
                     backdrop-filter: blur(5px);
                     background-color: rgba($color: #d9d9d9, $alpha: 0.15);
                     border: 1.5px solid #d9d9d9;
-                    border-radius: 3rem;
+                    border-radius: 1rem;
 
                     .card-body {
-                        padding: 5rem 4rem;
+                        padding: 3rem 2rem;
+                    }
+
+                    .img-fluid {
+                        border-radius: 0.5rem;
                     }
 
                     .card-title {
