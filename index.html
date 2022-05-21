@@ -25,7 +25,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Armata&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <title>Home | OmarTorres</title>
+    <title id="title_page"></title>
 </head>
 <body id="body_height">
     <header id="header_home">
@@ -36,29 +36,29 @@
                 <h6 class="titles">Civil engineer & Fullstack Web Developer (MERN)</h6>
             </div>
             <div class="row col-sm-12 col-md-12 col-lg-12 col-xl-12 btn_container justify-content-center">
-                <button class="btn btn-secondary">Download CV</button>
-                <button class="btn btn-primary">Let's chat!</button>
+                <button class="btn btn-secondary" id="">Download CV</button>
+                <button class="btn btn-primary" id="contact_btn_nav_2">Let's chat!</button>
             </div>
             <div class="header_social_icons align-content-center">
                 <a href="https://www.linkedin.com/in/omar-torres-urrego/" class="social_icons" id="social_icons" target="_blank"><i class="fa-brands fa-linkedin-in social_icons"></i></a>
                 <a href="https://github.com/omarurregodev" class="social_icons" id="social_icons" target="_blank"><i class="fa-brands fa-github social_icons"></i></a>
                 <a href="https://www.instagram.com/omarurrego18/" class="social_icons" id="social_icons" target="_blank"><i class="fa-brands fa-instagram social_icons"></i></a>
             </div>
-            <a href="" class="scroll_down" id="scroll-down">Scroll down</a>
+            <a href="#contact" class="scroll_down" id="footer_down_btn">Scroll down</a>
             <div class="ilustration">
                 <img src="./img/Logo_omar_blanco.svg" alt="ilustration" class="ilustration">
             </div>
         </div>
     </header>
     <nav class="">
-        <a href="#header_home" class="active"><i class="fa-solid fa-house"></i></a>
-        <a href="#about"><i class="fa-solid fa-user-tie"></i></a>
-        <a href="#skills"><i class="fa-brands fa-codepen"></i></a>
-        <a href="#portfolio"><i class="fa-regular fa-folder-closed"></i></a>
-        <a href="#contact"><i class="fa-regular fa-address-card"></i></a>
+        <a href="#header_home" id="home_btn_nav"><i class="fa-solid fa-house"></i></a>
+        <a href="#about" id="about_btn_nav"><i class="fa-solid fa-user-tie"></i></a>
+        <a href="#skills" id="skills_btn_nav"><i class="fa-brands fa-codepen"></i></a>
+        <a href="#portfolio" id="portfolio_btn_nav"><i class="fa-regular fa-folder-closed"></i></a>
+        <a href="#contact" id="contact_btn_nav"><i class="fa-regular fa-address-card"></i></a>
     </nav>
     <main>
-        <section class="about">
+        <section class="about" id="about_sec">
             <div class="container-fluid">
                 <div class="container text-center">
                     <h6 class="">Meet me</h6>
@@ -110,7 +110,7 @@
                 </div>
             </div>
         </section>  
-        <section class="skills">
+        <section class="skills" id="skills_sec">
             <div class="container-fluid">
                 <div class="container text-center">
                     <h6 class="">What are my skills?</h6>
@@ -161,7 +161,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio_sec">
             <div class="container">
                 <div class="container text-center">
                     <h6 class="">My projects</h6>
@@ -205,7 +205,7 @@
                                     <p class="card-text skills_p pb-2">I highly appreciate the simplicity in structure, clean design patterns, and well-thought-out interactions.</p>
                                     <div class="container p-0 text-start">
                                         <button class="btn btn_portfolio btn-secondary"><a href="https://github.com/omarurregodev/omardev.tech" target="_blank">GitHub</a></button>
-                                        <button class="btn btn_portfolio btn-secondary"><a href="hhttps://omarurregodev.github.io/omardev.tech/index.html" target="_blank">Demo</a></button>
+                                        <button class="btn btn_portfolio btn-secondary"><a href="https://omarurregodev.github.io/omardev.tech/" target="_blank">Demo</a></button>
                                     </div> 
                                 </div>
                             </div>
@@ -214,7 +214,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact_sec">
             <div class="container">
                 <div class="container text-center">
                     <h6 class="">Let's chat!</h6>
@@ -258,18 +258,18 @@
         </section>
     </main>
     <footer>
-        <section class="footer text-center mx-auto">
+        <section class="footer text-center mx-auto" id="footer_sec">
             <div class="container-fluid mx-auto">
                 <div class="container">
                     <img src="./img/Logo_omar_blanco.svg" alt="logo_omar" class="img-fluid logo_icon">
                 </div>
                 <div class="container">
                     <ul class="footer_navbar mb-0">
-                        <li class="list_footer_item"><a href=""></a>Home</li>
-                        <li class="list_footer_item"><a href=""></a>About Me</li>
-                        <li class="list_footer_item"><a href=""></a>Skills</li>
-                        <li class="list_footer_item"><a href=""></a>Portfolio</li>
-                        <li class="list_footer_item"><a href=""></a>Contact Me</li>
+                        <li class="list_footer_item" id="home_navbar_footer"><a href=""></a>Home</li>
+                        <li class="list_footer_item" id="about_navbar_footer"><a href=""></a>About Me</li>
+                        <li class="list_footer_item" id="skills_navbar_footer"><a href=""></a>Skills</li>
+                        <li class="list_footer_item" id="portfolio_navbar_footer"><a href=""></a>Portfolio</li>
+                        <li class="list_footer_item" id="contact_navbar_footer"><a href=""></a>Contact Me</li>
                     </ul>
                 </div>
                 <div class="container-fluid">
