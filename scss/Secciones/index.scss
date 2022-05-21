@@ -74,6 +74,13 @@ header {
         transition-duration: 1s;
     }
     
+    .ilustration {
+        width: 24rem;
+        margin-top: 6rem;
+        position: absolute;
+        left: calc(50% - 12rem);
+        
+    }
 }
 nav, nav a {
     display: flex;
