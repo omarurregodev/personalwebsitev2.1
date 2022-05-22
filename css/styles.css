@@ -273,7 +273,8 @@ nav {
   padding-top: 3rem;
   height: 45vh;
   backdrop-filter: blur(5px);
-  background-color: #3c6e71; }
+  background: #353535;
+  background: linear-gradient(180deg, #353535 0%, #3c6e71 89%); }
   .footer div {
     height: max-content; }
     .footer div div img {
