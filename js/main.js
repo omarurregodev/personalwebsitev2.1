@@ -8,7 +8,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     if($("#body_height").width() < 480) {
         console.log("aquii"+$("#body_height").width());
-        $("#body_height").css('background-color','#3C6E71')  
+        $("#body_height").css('background-color','#353535')  
     }
     
 });
