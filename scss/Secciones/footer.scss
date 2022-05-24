@@ -1,6 +1,6 @@
 .footer {
     padding-top: 3rem;
-    height: 45vh;
+    height: 55vh;
     backdrop-filter: blur(5px);
     background: rgb(53,53,53);
     background: linear-gradient(180deg, rgba(53,53,53,1) 0%, rgba(60,110,113,1) 89%);
@@ -16,13 +16,16 @@
             display: flex;
             justify-content: center;
             padding-top: 2rem;
-            margin: 0 auto 3rem;
+            margin: 0 auto;
+            padding-left: 0;
             flex-wrap: wrap;
-            gap: 2rem;
+            //gap: 2rem;
 
             .list_footer_item {
                 list-style: none;
                 color: #d9d9d9;
+                padding-left: 1rem;
+                padding-right: 1rem;
             }
             .list_footer_item:hover {
                 color: #353535;
@@ -34,14 +37,16 @@
             display: flex;
             justify-content: center;
             padding-top: 2rem;
-            margin: 0 auto 3rem;
+            margin: 0 auto;
             flex-wrap: wrap;
-            gap: 2rem;
             padding-left: 0;
+            //gap: 2rem;
 
             .list_footer_icons {
                 list-style: none;
                 font-size: 1.5rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
 
                 a {
                     text-decoration: none;
