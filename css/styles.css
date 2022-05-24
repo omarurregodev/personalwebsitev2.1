@@ -281,7 +281,8 @@ nav {
   .footer div {
     height: max-content; }
     .footer div div img {
-      max-width: 7rem; }
+      max-width: 7rem;
+      cursor: pointer; }
     .footer div .footer_navbar {
       display: flex;
       justify-content: center;
