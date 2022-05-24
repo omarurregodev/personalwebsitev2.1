@@ -82,10 +82,16 @@ function setup() {
   
 function draw() {
   // put drawing code here
-  background('#353535');
-  for(let i = 0;i<particles.length;i++) {
-    particles[i].createParticle();
-    particles[i].moveParticle();
-    particles[i].joinParticles(particles.slice(i));
+  
+  if (windowWidth > 480) {
+    background('#353535');
+    for(let i = 0;i<particles.length;i++) {
+      particles[i].createParticle();
+      particles[i].moveParticle();
+      particles[i].joinParticles(particles.slice(i));
+    }
+  } else {
+    background('#353535');
   }
+  
 }
