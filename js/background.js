@@ -70,7 +70,7 @@ let particles = [];
 
 function setup() {
   // put setup code here
-  canvas = createCanvas(body_width, body_height);
+  canvas = createCanvas(800,800);
   canvas.position(0,0);
   canvas.style('z-index','-1');
   if(particles.length <= windowWidth/10) {
