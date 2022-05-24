@@ -4,12 +4,19 @@ $(document).ready(function () {
 });
 
 
+// IN MOBILE, DONT SHOW THE ILLUSTRATION
+
+$(document).ready(function () {
+    if($("#body_height").width() < 480) {
+        $(".ilustration").css('display','none') 
+    }
+    
+});
+
 // SET BACKGROUND FOR MOBILE VIEWS
 $(document).ready(function () {
     if($("#body_height").width() < 480) {
-        console.log("aquii"+$("#body_height").width());
         $("#body_height").css('background-color','#353535') 
-        console.log('aqui entro'); 
     }
     
 });
