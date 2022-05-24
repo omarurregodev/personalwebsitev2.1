@@ -70,7 +70,7 @@ let particles = [];
 
 function setup() {
   // put setup code here
-  canvas = createCanvas(800,800);
+  canvas = createCanvas(body_width,body_height);
   canvas.position(0,0);
   canvas.style('z-index','-1');
   if(particles.length <= windowWidth/10) {
@@ -82,16 +82,12 @@ function setup() {
   
 function draw() {
   // put drawing code here
-  
-  if (windowWidth > 480) {
-    background('#353535');
-    for(let i = 0;i<particles.length;i++) {
-      particles[i].createParticle();
-      particles[i].moveParticle();
-      particles[i].joinParticles(particles.slice(i));
-    }
-  } else {
-    background('#353535');
+
+  background('#353535');
+  for(let i = 0;i<particles.length;i++) {
+    particles[i].createParticle();
+    particles[i].moveParticle();
+    particles[i].joinParticles(particles.slice(i));
   }
   
 }
