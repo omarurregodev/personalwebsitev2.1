@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     if($("#body_height").width() < 480) {
-        $(".ilustration").css('display','none') 
+        $(".avatar_img").css('display','none') 
     }
     
 });
