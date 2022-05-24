@@ -48,7 +48,7 @@ header {
       font-size: 1rem; }
     header .header_social_icons .social_icons:hover {
       color: #D9D9D9;
-      transition-duration: 1s; }
+      transition-duration: 0.3s; }
   header .scroll_down {
     bottom: 5rem;
     font-size: .9rem;
@@ -59,7 +59,7 @@ header {
     color: #3C6E71; }
   header .scroll_down:hover {
     color: #D9D9D9;
-    transition-duration: 1s; }
+    transition-duration: 0.4s; }
   header .ilustration {
     width: 16rem;
     margin-top: 6rem;
@@ -95,7 +95,7 @@ nav {
   nav a:hover {
     background: #3C6E71;
     color: #D9D9D9;
-    transition-duration: 1s; }
+    transition-duration: 0.3s; }
   nav .active {
     background: #3C6E71;
     color: #fff; }
@@ -150,7 +150,7 @@ nav {
       backdrop-filter: blur(5px);
       background-color: rgba(60, 110, 113, 0.3);
       border: 1.5px solid #3C6E71;
-      transition-duration: 0.5s;
+      transition-duration: 0.2s;
       cursor: pointer; }
   .about div .containers_about .about_me {
     padding-top: 3rem;
@@ -196,7 +196,7 @@ nav {
   backdrop-filter: blur(5px);
   background-color: rgba(60, 110, 113, 0.3);
   border: 1.5px solid #3C6E71;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   cursor: pointer; }
 
 .portfolio div div h6 {
@@ -240,13 +240,13 @@ nav {
     background-color: #3c6e71;
     border: 1px solid #3C6E71;
     cursor: pointer;
-    transition-duration: 0.5s; }
+    transition-duration: 0.2s; }
 
 .portfolio div div div .card:hover {
   backdrop-filter: blur(5px);
   background-color: rgba(60, 110, 113, 0.3);
   border: 1.5px solid #3C6E71;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   cursor: pointer; }
 
 .contact {
@@ -280,12 +280,12 @@ nav {
         .contact .cards_info_container div article .card .contact_p .link_contact:hover {
           cursor: pointer;
           color: #d9d9d9;
-          transition-duration: 0.5s; }
+          transition-duration: 0.2s; }
     .contact .cards_info_container div article .card:hover {
       backdrop-filter: blur(5px);
       background-color: rgba(60, 110, 113, 0.2);
       border: 1.5px solid #3C6E71;
-      transition-duration: 0.5s;
+      transition-duration: 0.2s;
       cursor: pointer; }
 
 .footer {
@@ -311,7 +311,7 @@ nav {
       padding-right: 1rem; }
     .footer .div_gen_footer .footer_navbar .list_footer_item:hover {
       color: #353535;
-      transition-duration: 0.5s;
+      transition-duration: 0.2s;
       cursor: pointer; }
   .footer .div_gen_footer .footer_icons {
     display: flex;
@@ -331,7 +331,7 @@ nav {
         color: #d9d9d9; }
       .footer .div_gen_footer .footer_icons .list_footer_icons a:hover {
         color: #353535;
-        transition-duration: 0.5s;
+        transition-duration: 0.2s;
         cursor: pointer; }
   .footer .div_gen_footer .copy_right_container .copy_p {
     color: rgba(217, 217, 217, 0.7); }
