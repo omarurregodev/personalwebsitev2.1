@@ -1,12 +1,11 @@
 .footer {
     padding-top: 3rem;
-    height: 55vh;
+    height: auto;
     backdrop-filter: blur(5px);
     background: rgb(53,53,53);
     background: linear-gradient(180deg, rgba(53,53,53,1) 0%, rgba(60,110,113,1) 89%);
 
-    div {
-        height: max-content;
+    .div_gen_footer {
         div {
             img {
                 max-width: 7rem;
@@ -41,6 +40,7 @@
             margin: 0 auto;
             flex-wrap: wrap;
             padding-left: 0;
+            margin-bottom: 5rem;
             //gap: 2rem;
 
             .list_footer_icons {
@@ -60,13 +60,13 @@
                 }
             }
         }
-        .copy_p{
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: 0;
-            color: rgba($color: #d9d9d9, $alpha: 0.7);
+        .copy_right_container {
+
+            .copy_p{
+                color: rgba($color: #d9d9d9, $alpha: 0.7);
+            }
+
         }
+        
     }
 }

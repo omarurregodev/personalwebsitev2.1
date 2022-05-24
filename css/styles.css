@@ -131,8 +131,11 @@ nav {
       backdrop-filter: blur(5px);
       background-color: rgba(255, 255, 255, 0.05);
       border: 1px solid #d9d9d9;
-      padding: 5rem 0rem;
+      padding: 4rem 0rem;
       border-radius: 2rem; }
+      .about div .containers_about .group_about_cards .card .card-body {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem; }
       .about div .containers_about .group_about_cards .card h6 {
         font-size: 1.1rem;
         color: #fff; }
@@ -287,54 +290,48 @@ nav {
 
 .footer {
   padding-top: 3rem;
-  height: 55vh;
+  height: auto;
   backdrop-filter: blur(5px);
   background: #353535;
   background: linear-gradient(180deg, #353535 0%, #3c6e71 89%); }
-  .footer div {
-    height: max-content; }
-    .footer div div img {
-      max-width: 7rem;
+  .footer .div_gen_footer div img {
+    max-width: 7rem;
+    cursor: pointer; }
+  .footer .div_gen_footer .footer_navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin: 0 auto;
+    padding-left: 0;
+    flex-wrap: wrap; }
+    .footer .div_gen_footer .footer_navbar .list_footer_item {
+      list-style: none;
+      color: #d9d9d9;
+      padding-left: 1rem;
+      padding-right: 1rem; }
+    .footer .div_gen_footer .footer_navbar .list_footer_item:hover {
+      color: #353535;
+      transition-duration: 0.5s;
       cursor: pointer; }
-    .footer div .footer_navbar {
-      display: flex;
-      justify-content: center;
-      padding-top: 2rem;
-      margin: 0 auto;
-      padding-left: 0;
-      flex-wrap: wrap; }
-      .footer div .footer_navbar .list_footer_item {
-        list-style: none;
-        color: #d9d9d9;
-        padding-left: 1rem;
-        padding-right: 1rem; }
-      .footer div .footer_navbar .list_footer_item:hover {
+  .footer .div_gen_footer .footer_icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 5rem; }
+    .footer .div_gen_footer .footer_icons .list_footer_icons {
+      list-style: none;
+      font-size: 1.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem; }
+      .footer .div_gen_footer .footer_icons .list_footer_icons a {
+        text-decoration: none;
+        color: #d9d9d9; }
+      .footer .div_gen_footer .footer_icons .list_footer_icons a:hover {
         color: #353535;
         transition-duration: 0.5s;
         cursor: pointer; }
-    .footer div .footer_icons {
-      display: flex;
-      justify-content: center;
-      padding-top: 2rem;
-      margin: 0 auto;
-      flex-wrap: wrap;
-      padding-left: 0; }
-      .footer div .footer_icons .list_footer_icons {
-        list-style: none;
-        font-size: 1.5rem;
-        padding-left: 1rem;
-        padding-right: 1rem; }
-        .footer div .footer_icons .list_footer_icons a {
-          text-decoration: none;
-          color: #d9d9d9; }
-        .footer div .footer_icons .list_footer_icons a:hover {
-          color: #353535;
-          transition-duration: 0.5s;
-          cursor: pointer; }
-    .footer div .copy_p {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: 0;
-      color: rgba(217, 217, 217, 0.7); }
+  .footer .div_gen_footer .copy_right_container .copy_p {
+    color: rgba(217, 217, 217, 0.7); }
