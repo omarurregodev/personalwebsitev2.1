@@ -61,10 +61,10 @@ header {
     color: #D9D9D9;
     transition-duration: 0.4s; }
   header .ilustration {
-    width: 16rem;
+    width: 24rem;
     margin-top: 6rem;
     position: absolute;
-    left: calc(50% - 8rem); }
+    left: calc(50% - 12rem); }
 
 nav, nav a {
   display: flex; }
@@ -100,7 +100,7 @@ nav {
     background: #3C6E71;
     color: #fff; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   /* For mobile phones: */
   nav {
     right: -4rem;

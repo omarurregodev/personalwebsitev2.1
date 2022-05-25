@@ -7,19 +7,17 @@ $(document).ready(function () {
 // IN MOBILE, DONT SHOW THE ILLUSTRATION
 
 $(document).ready(function () {
-    if($("#body_height").width() < 480) {
-        $(".avatar_img").css('display','none') 
-    }
-    
+    $(window).resize(function() {
+        if($("#body_height").width() < 480) {
+            $(".avatar_img").css('display','none');
+            $(".ilustration").css({'width':'20rem','left':'calc(50% - 10rem)'});
+        } else {
+            $(".avatar_img").css('display','block');
+            $(".ilustration").css({'width':'24rem','left':'calc(50% - 12rem)'});
+        }
+    });  
 });
 
-// SET BACKGROUND FOR MOBILE VIEWS
-$(document).ready(function () {
-    if($("#body_height").width() < 480) {
-        $("#body_height").css('background-color','#353535') 
-    }
-    
-});
 
 //SCROLL ANIMATION AND DYNAMIC TITLE
 $(document).ready(function (){
