@@ -73,8 +73,8 @@ function setup() {
   canvas = createCanvas(body_width,body_height);
   canvas.position(0,0);
   canvas.style('z-index','-1');
-  if(particles.length <= windowWidth/10) {
-    for(let i = 0;i<windowWidth/10;i++){
+  if(particles.length <= windowWidth/15) {
+    for(let i = 0;i<windowWidth/15;i++){
       particles.push(new Particle());
     }
   }
