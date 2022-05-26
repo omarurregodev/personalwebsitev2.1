@@ -1,6 +1,7 @@
 // DEFINE TITLE
 $(document).ready(function () {
     $("#title_page").html("Home | OmarTorres");   
+    $("#body_height").css('background-color','#353535');
 });
 
 
