@@ -2,12 +2,8 @@
 $(document).ready(function () {
     $("#title_page").html("Home | OmarTorres");   
     $("#body_height").css('background-color','#353535');
-});
 
-
-// IN MOBILE, DONT SHOW THE ILLUSTRATION
-
-$(document).ready(function () {
+    // IN MOBILE, DONT SHOW THE ILLUSTRATION
     $(window).resize(function() {
         if($("#body_height").width() < 480) {
             $(".avatar_img").css('display','none');
@@ -18,6 +14,9 @@ $(document).ready(function () {
         }
     });  
 });
+
+
+
 
 
 //SCROLL ANIMATION AND DYNAMIC TITLE
