@@ -1,3 +1,27 @@
+// TOOLTIP FOR THE NAVBAR
+
+tippy('#home_btn_nav', {
+    content: 'Home',
+    placement: 'left', 
+});
+tippy('#about_btn_nav', {
+    content: 'About',
+    placement: 'left', 
+});
+tippy('#skills_btn_nav', {
+    content: 'Skills',
+    placement: 'left', 
+});
+tippy('#portfolio_btn_nav', {
+    content: 'Portfolio',
+    placement: 'left', 
+});
+tippy('#contact_btn_nav', {
+    content: 'Contact',
+    placement: 'left', 
+});
+
+
 // DEFINE TITLE
 $(document).ready(function () {
     $("#title_page").html("Home | OmarTorres");   
