@@ -36,7 +36,7 @@ class Particle {
   // creation of a particle.
   createParticle() {
     noStroke();
-    fill('rgba(60, 110, 113,1)');
+    fill('rgba(160, 160, 160,1)');
     circle(this.x,this.y,this.r);
   }
 
@@ -57,7 +57,7 @@ class Particle {
       particles.forEach(element =>{
         let dis = dist(this.x,this.y,element.x,element.y);
         if(dis<120) {
-          stroke('rgba(60, 110, 113,0.25)');
+          stroke('rgba(160, 160, 160,0.25)');
           line(this.x,this.y,element.x,element.y);
         }
       });  
