@@ -1,4 +1,5 @@
-let words = ['Civil Engineer', 'Full Stack Web Developer', 'and'],
+$(document).ready(function() {
+    let words = ['Civil Engineer', 'Full Stack Web Developer', 'and'],
     wordWrapper = document.getElementById("words"),
     wordWrapperContent = wordWrapper.innerHTML,
     addingWord = false,
@@ -30,6 +31,9 @@ setInterval(function(){
   }
 
 }, 150);
+});
+
+
 
 
 
