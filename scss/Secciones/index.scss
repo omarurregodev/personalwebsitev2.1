@@ -17,6 +17,28 @@ header {
         .titles {
             padding-top: 0.5rem;
             color: #D9D9D9;
+
+            .words {
+                background-color: #3C6E71;
+                font-family: Arial;
+                font-size: 1.3rem;
+                color: #d9d9d9;
+                //line-height: 1.4em;
+                //height: 1.4em;
+                padding: 0 0.8rem 0 0.3rem;
+                display: inline-block;
+                vertical-align: middle;
+                position: relative;
+            }
+            .words:before {
+                content: '';
+                background-color: black;
+                width: 1px;
+                position: absolute;
+                top: 5px;
+                bottom: 5px;
+                right: 7px;
+              }
         }
     }
 
