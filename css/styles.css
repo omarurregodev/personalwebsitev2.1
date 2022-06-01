@@ -25,6 +25,7 @@ header {
     gap: 1.2rem;
     display: flex; }
     header .btn_container .btn {
+      text-decoration: none;
       background: none;
       color: #3C6E71;
       display: inline-block;
