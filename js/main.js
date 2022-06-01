@@ -49,7 +49,7 @@ $(document).ready(function (){
     $("#footer_down_btn").click(function (){
         $('html, body').animate({
             scrollTop: $("#footer_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -62,7 +62,7 @@ $(document).ready(function (){
     $("#contact_btn_nav_2").click(function (){
         $('html, body').animate({
             scrollTop: $("#contact_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -75,7 +75,7 @@ $(document).ready(function (){
     $("#logo_btn_home").click(function (){
         $('html, body').animate({
             scrollTop: $("#header_home").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"#3C6E71","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -87,7 +87,7 @@ $(document).ready(function (){
     $("#home_btn_nav").click(function (){
         $('html, body').animate({
             scrollTop: $("#header_home").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"#3C6E71","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -98,7 +98,7 @@ $(document).ready(function (){
     $("#about_btn_nav").click(function (){
         $('html, body').animate({
             scrollTop: $("#about_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"#3C6E71","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -109,7 +109,7 @@ $(document).ready(function (){
     $("#skills_btn_nav").click(function (){
         $('html, body').animate({
             scrollTop: $("#skills_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"#3C6E71","color":"#fff"});
@@ -120,7 +120,7 @@ $(document).ready(function (){
     $("#portfolio_btn_nav").click(function (){
         $('html, body').animate({
             scrollTop: $("#portfolio_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -131,7 +131,7 @@ $(document).ready(function (){
     $("#contact_btn_nav").click(function (){
         $('html, body').animate({
             scrollTop: $("#contact_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -144,7 +144,7 @@ $(document).ready(function (){
     $("#home_navbar_footer").click(function (){
         $('html, body').animate({
             scrollTop: $("#header_home").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"#3C6E71","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -155,7 +155,7 @@ $(document).ready(function (){
     $("#about_navbar_footer").click(function (){
         $('html, body').animate({
             scrollTop: $("#about_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"#3C6E71","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -166,7 +166,7 @@ $(document).ready(function (){
     $("#skills_navbar_footer").click(function (){
         $('html, body').animate({
             scrollTop: $("#skills_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"#3C6E71","color":"#fff"});
@@ -177,7 +177,7 @@ $(document).ready(function (){
     $("#portfolio_navbar_footer").click(function (){
         $('html, body').animate({
             scrollTop: $("#portfolio_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
@@ -188,7 +188,7 @@ $(document).ready(function (){
     $("#footer_navbar_footer").click(function (){
         $('html, body').animate({
             scrollTop: $("#contact_sec").offset().top
-        }, 2000);
+        }, 500);
         $("#home_btn_nav").css({"background":"","color":"#fff"});
         $("#about_btn_nav").css({"background":"","color":"#fff"});
         $("#skills_btn_nav").css({"background":"","color":"#fff"});
