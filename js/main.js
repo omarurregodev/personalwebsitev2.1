@@ -42,6 +42,7 @@ $(document).ready(function () {
 
 
 //SCROLL ANIMATION AND DYNAMIC TITLE
+
 $(document).ready(function (){
     
     $("#footer_down_btn").click(function (){
