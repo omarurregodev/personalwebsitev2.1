@@ -128,13 +128,14 @@ nav {
 
 @media only screen and (max-width: 480px) {
     /* For mobile phones: */
-    nav, nav a {
-    }
     nav {
-        right: -4rem;
+        left: 28%;
+        top: 82%;
+        transform: translateX(0%);
+        transform: rotate(0deg);
         padding: 0.3rem 1rem;
-        transform: rotate(90deg);
         a {
+            transform: rotate(0deg);
             font-size: 0.8rem;
             padding-left: 0.5rem;
             padding-right: 0.5rem;
