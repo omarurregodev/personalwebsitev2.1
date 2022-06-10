@@ -31,15 +31,13 @@ $(document).ready(function () {
     $(window).resize(function() {
         if($("#body_height").width() < 480) {
             $(".avatar_img").css('display','none');
-            $(".ilustration").css({'width':'20rem','left':'calc(50% - 10rem)'});
+            $(".ilustration").css({'width':'16rem','left':'calc(50% - 8rem)'});
         } else {
             $(".avatar_img").css('display','block');
-            $(".ilustration").css({'width':'24rem','left':'calc(50% - 12rem)'});
+            $(".ilustration").css({'width':'18rem','left':'calc(50% - 9rem)'});
         }
     });  
 });
-
-
 
 
 

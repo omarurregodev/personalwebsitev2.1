@@ -1,74 +1,53 @@
 .portfolio {
-    div {
-        div {
-            h6 {
-                color: #d9d9d9;
-            }
+    .portfolio_header {
+        h6 {
+            color: #d9d9d9;
+        }
 
-            h2 {
+        h2 {
+            color: #fff;
+            margin-bottom: 3rem; 
+        }
+    }
+    .cards_portfolio_container {
+        padding: 0rem 2rem;
+        gap: 2rem;
+
+        .cards_portfolio {
+            border: 1px solid #fff;
+            border-radius: 1rem;
+            padding: 3rem 2rem;
+            background-color: rgba($color: #d9d9d9, $alpha: 0.15);
+
+            .cards_title_portfolio {
                 color: #fff;
-                margin-bottom: 3rem; 
+                font-size: 1.1rem;
+                text-align: start;
             }
-        }
-        .cards_skills_container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+            .portfolio_p {
+                color: #D9d9d9;
+                font-size: 0.8rem;
+                padding-bottom: 0.5rem;
+                text-align: start;
+            } 
+            .btn_section_portfolio {
+                .btn {
+                    border: 1px solid #d9d9d9;
+                    background-color: rgba($color: #d9d9d9, $alpha: 0);
+                    color: #d9d9d9;
+                    padding: 0.3rem 1rem;
 
-        div {
-            div {
-                .card {
-                    backdrop-filter: blur(5px);
-                    background-color: rgba($color: #d9d9d9, $alpha: 0.15);
-                    border: 1.5px solid #d9d9d9;
-                    border-radius: 1rem;
-
-                    .card-body {
-                        padding: 3rem 2rem;
-                    }
-
-                    .img-fluid {
-                        border-radius: 0.5rem;
-                    }
-
-                    .card-title {
-                        color: #fff;
-                        font-size: 1.1rem;
-                        text-align: start;
-                    }
-
-                    .skills_p {
-                        color: #D9d9d9;
-                        font-size: 0.8rem;
-                        text-align: start;
-                    }
-
-                    .btn_portfolio {
-                        border: 1px solid #d9d9d9;
-                        background-color: rgba($color: #d9d9d9, $alpha: 0);
+                    a {
+                        font-size: 0.85rem;
                         color: #d9d9d9;
-                        padding: 0.8rem 2rem;
-
-                        a {
-                            text-decoration: none;
-                            color: #d9d9d9;
-                        }
-                    }
-
-                    .btn_portfolio:hover {
-                        background-color: rgba($color: #3C6E71, $alpha: 1);
-                        border: 1px solid #3C6E71;
-                        cursor: pointer;
-                        transition-duration: 0.2s;
+                        text-decoration: none;
                     }
                 }
-                .card:hover {
-                    backdrop-filter: blur(5px);
-                    background-color: rgba($color: #3C6E71, $alpha: 0.3);
-                    border: 1.5px solid #3C6E71;
-                    transition-duration: 0.2s;
+                .btn:hover {
+                    background-color: rgba($color: #3C6E71, $alpha: 1);
+                    border: 1px solid #3C6E71;
                     cursor: pointer;
+                    transition-duration: 0.2s;
                 }
             }
         }
